@@ -12,17 +12,20 @@
     <main id="home">
         <div class="container">
             <div class="input-container">
-                <div class="day-content">
+                <div class="day-content userInput">
                     <label for="">DAY</label>
-                    <input type="number">
+                    <input id="inputDay" type="number" placeholder="DD">
+                    <p id="errorMessage">This field is required</p>
                 </div>
-                <div class="month-content">
+                <div class="month-content userInput">
                     <label for="">MONTH</label>
-                    <input type="number">
+                    <input id="inputMonth" type="number" placeholder="MM">
+                    <p id="errorMessage">fff</p>
                 </div>
-                <div class="year-content">
+                <div class="year-content userInput">
                     <label for="">YEAR</label>
-                    <input type="number">
+                    <input id="inputYear" type="number" placeholder="YYYY">
+                    <p id="errorMessage">This field is required</p>
                 </div>
             </div>
             <div class="mid">
@@ -32,7 +35,7 @@
 
             <div class="output-display">
                 <div>
-                    <span class="dash" id="years">--</span><h1>Years</h1>
+                    <span class="dash" id="years">28</span><h1>Years</h1>
                 </div>
                 <div>
                     <span class="dash" id="months">--</span><h1>Months</h1>
